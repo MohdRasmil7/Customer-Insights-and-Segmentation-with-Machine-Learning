@@ -1,6 +1,5 @@
 # -*- coding: utf-8 -*-
 """
-Created on Sun May 26 22:50:32 2024
 
 @author: Muhammed Rasmil
 """
