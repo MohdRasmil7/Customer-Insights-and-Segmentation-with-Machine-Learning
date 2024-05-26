@@ -5,6 +5,7 @@ Created on Sun May 26 22:50:32 2024
 @author: Muhammed Rasmil
 """
 
+
 import streamlit as st
 import numpy as np
 import pandas as pd
