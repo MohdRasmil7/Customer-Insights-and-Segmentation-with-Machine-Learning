@@ -25,14 +25,8 @@ def predict_cluster(features):
     input_scaled = scaler.fit_transform(input_data)
     
 
-    # Transform features with PCA
-    n_components=min(features)
-    pca=decomposition.PCA(n_components=2)
-    input_pca=pca.fit_transform(input_scaled)
-    
-    print(input_pca)
     # Predict using the classifier
-    prediction = classifier.predict(input_pca)
+    prediction = classifier.predict(input_scaled)
     
     
     return prediction
