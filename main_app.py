@@ -87,6 +87,14 @@ def main():
     # About section
     if st.button("About"):
         st.text("This is a Streamlit app that classifies data into clusters.")
+        
+    # Credits section
+    st.markdown("""
+    <div style="text-align: center; margin-top: 30px;">
+        <hr>
+        <p style="color: grey;">© Muhammed Rasmil</p>
+    </div>
+    """, unsafe_allow_html=True)
 
 if __name__ == '__main__':
     main()
