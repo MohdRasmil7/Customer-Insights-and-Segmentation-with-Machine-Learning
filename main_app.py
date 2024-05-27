@@ -86,7 +86,20 @@ def main():
 
     # About section
     if st.button("About"):
-        st.text("This is a Streamlit app that classifies data into clusters.")
+        st.text("""About
+Welcome to the Streamlit Cluster Classification ML App! This application leverages a pre-trained machine learning model to classify customer data into meaningful clusters. Whether you’re exploring customer behavior, predicting responses, or segmenting your audience, this app provides insights at your fingertips.
+
+Key Features:
+
+Predictive Power: Utilize the power of machine learning to make informed decisions.
+User-Friendly Interface: Input customer attributes, click “Predict,” and discover the predicted cluster.
+Data-Driven Insights: Understand customer segments based on their characteristics.
+Explore the app, uncover patterns, and enhance your decision-making process. Happy clustering!
+
+Muhammed Rasmil
+
+
+© 2024.""")
         
     # Credits section
     st.markdown("""
