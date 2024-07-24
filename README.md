@@ -43,12 +43,12 @@ Ensure you have the following files in the project directory:
 - scaler.pkl
 - pca.pkl
 
-4. **Usage:**
+ **Usage:**
 
 1. Open the application in your web browser.
-1. Enter customer attributes into the input fields.
-1. Click the "Predict" button to see the predicted cluster.
-1. Use the "About" button to learn more about the application.
+2. Enter customer attributes into the input fields.
+3. Click the "Predict" button to see the predicted cluster.
+4. Use the "About" button to learn more about the application.
 
 ## About
 
