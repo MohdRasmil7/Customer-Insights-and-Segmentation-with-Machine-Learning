@@ -1,55 +1,63 @@
-## **Problem Statement**
-Customer Personality Analysis is a detailed analysis of a company’s ideal customers. It helps a business to better understand its customers and makes it easier for them to modify products according to the specific needs, behaviors and concerns of different types of customers.  
+# Cluster Classification App 📊📈
 
+![Cluster Classification App](assets/image.png)
 
-Customer personality analysis helps a business to modify its product based on its target customers from different types of customer segments. For example, instead of spending money to market a new product to every customer in the company’s database, a company can analyze which customer segment is most likely to buy the product and then market the product only on that particular segment.
+## Overview
 
-**Attributes**  
+The Cluster Classification App is a user-friendly machine learning application built with Streamlit. 🤖 It leverages a pre-trained model to classify customer data into meaningful clusters, providing insights into customer behavior and segmentation. 📊 Whether you’re exploring customer characteristics or predicting responses, this app offers a straightforward interface to make informed decisions. 🚀
 
-**People**     
+## Features
 
-●	**ID**: Customer's unique identifier    
-●	**Year_Birth**: Customer's birth year   
-●	**Education**: Customer's education level   
-●	**Marital_Status**: Customer's marital status   
-●	**Income**: Customer's yearly household income    
-●	**Kidhome**: Number of children in customer's household  
-●	**Teenhome**: Number of teenagers in customer's household   
-●	**Dt_Customer**: Date of customer's enrollment with the company  
-●	**Recency**: Number of days since customer's last purchase   
-●	**Complain**: 1 if the customer complained in the last 2 years, 0 otherwise   
+- **Predictive Power:** Uses a pre-trained machine learning model to classify customer data into clusters.
+- **User-Friendly Interface:** Simple text inputs for customer attributes and an easy "Predict" button.
+- **Data-Driven Insights:** Understand customer segments based on various characteristics.
 
+## Technologies Used
 
-**Products**   
+- **Python**
+- **Streamlit:** For building the web interface
+- **Scikit-learn:** For machine learning model and preprocessing
+- **NumPy & Pandas:** For handling data
 
-●	**MntWines**: Amount spent on wine in last 2 years   
-●	**MntFruits**: Amount spent on fruits in last 2 years    
-●	**MntMeatProducts**: Amount spent on meat in last 2 years    
-●	**MntFishProducts**: Amount spent on fish in last 2 years    
-●	**MntSweetProducts**: Amount spent on sweets in last 2 years     
-●	**MntGoldProds**: Amount spent on gold in last 2 years    
+## Setup and Installation
 
+1. **Clone the repository:**
 
-**Promotion**   
+   ```bash
+   git clone https://github.com/your-repo/cluster-classification-app.git
+   cd cluster-classification-app
 
-●	**NumDealsPurchases**: Number of purchases made with a discount  
-●	**AcceptedCmp1**: 1 if customer accepted the offer in the 1st campaign, 0 otherwise   
-●	**AcceptedCmp2**: 1 if customer accepted the offer in the 2nd campaign, 0 otherwise    
-●	**AcceptedCmp3**: 1 if customer accepted the offer in the 3rd campaign, 0 otherwise    
-●	**AcceptedCmp4**: 1 if customer accepted the offer in the 4th campaign, 0 otherwise    
-●	**AcceptedCmp5**: 1 if customer accepted the offer in the 5th campaign, 0 otherwise    
-●	**Response**: 1 if customer accepted the offer in the last campaign, 0 otherwise   
+   ```
 
+2. **Install the required packages:**
 
-**Place**
+   ```bash
+    pip install -r requirements.txt
+   ```
 
-●	**NumWebPurchases**: Number of purchases made through the company’s website        
-●	**NumCatalogPurchases**: Number of purchases made using a catalogue     
-●	**NumStorePurchases**: Number of purchases made directly in stores     
-●	**NumWebVisitsMonth**: Number of visits to company’s website in the last month     
+3. **Download or place your pre-trained model files:**
 
-## Target 
+Ensure you have the following files in the project directory:
 
-Need to perform clustering to summarize customer segments.
+- final_model.pkl
+- scaler.pkl
+- pca.pkl
 
+4. **Usage:**
 
+1. Open the application in your web browser.
+1. Enter customer attributes into the input fields.
+1. Click the "Predict" button to see the predicted cluster.
+1. Use the "About" button to learn more about the application.
+
+## About
+
+Welcome to the Streamlit Cluster Classification ML App! This application leverages a pre-trained machine learning model to classify customer data into meaningful clusters. Whether you’re exploring customer behavior, predicting responses, or segmenting your audience, this app provides insights at your fingertips.
+
+**Key Features:**
+
+- Predictive Power
+- User-Friendly Interface
+- Data-Driven Insights
+
+Explore the app, uncover patterns, and enhance your decision-making process. Happy clustering!
