@@ -7,6 +7,7 @@
 The Cluster Classification App is a user-friendly machine learning application built with Streamlit. 🤖 It leverages a pre-trained model to classify customer data into meaningful clusters, providing insights into customer behavior and segmentation. 📊 Whether you’re exploring customer characteristics or predicting responses, this app offers a straightforward interface to make informed decisions. 🚀
 
 ![Cluster Classification App](assets/image.png)
+![Cluster Classification App](assets/image2.png)
 
 
 ## Features
