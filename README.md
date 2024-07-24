@@ -63,4 +63,4 @@ Welcome to the Streamlit Cluster Classification ML App! This application leverag
 - User-Friendly Interface
 - Data-Driven Insights
 
-Explore the app, uncover patterns, and enhance your decision-making process. Happy clustering!
+Explore the app, uncover patterns, and enhance your decision-making process. Happy clustering! 🤗
